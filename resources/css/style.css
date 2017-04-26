@@ -30,7 +30,7 @@ header:hover {
 	color: #555;
 	border: 1px solid #555;
 	box-shadow: 0px 1px #555;
-	transition: box-shadow 0.2s, border 0.2s, background-color 0.2s, color 0.2s;
+	transition: box-shadow 0.3s, border 0.3s, background-color 0.3s, color 0.3s;
 }
 
 h1 {
