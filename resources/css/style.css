@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	background-color: #fff;
+	color: #222;
+}
+
+header {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+	font-size: 350%;
+	font-weight: 100;
+	text-align: center;
+	color: rgba(69, 69, 69, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid #d0d0d0;
+	box-shadow: 0px 1px #d0d0d0;
+}
+
+header:hover {
+	background-color: #fff;
+	color: #555;
+	border: 1px solid #555;
+	box-shadow: 0px 1px #555;
+	transition: box-shadow 0.2s, border 0.2s, background-color 0.2s, color 0.2s;
+}
+
+h1 {
+	font-size: 250%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	border: none;
+}
+
+.container {
+	height: 100vh;
+	min-width: 1280px;
+}
+
+.center {
+	padding-top: 200px;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.text {
+	position: absolute;
+	z-index: 1;
+}
+
+.objects {
+	margin-right: 40px;
+	float: left;
+	opacity: 0;
+}
+
+.objects img {
+	width: 250px;
+	height: auto;
+	opacity: 0.6;
+}
+
+.objects img:hover {
+	opacity: 1;
+}
+
+.sticky img {
+	width: 100%;
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+	opacity: 0.1;
+	z-index: -9999;
+}
+
+
+
+/*--images--*/
+
+#map img {
+	width: auto;
+	height: 320px;
+}
+
+#box img {
+	width: auto;
+	height: 250px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+	opacity: 0;
+}
+
+.one img {
+	clip: rect(330px, 1000px, 450px, 400px);
+	opacity: 1;
+}
+
+.two img {
+	clip: rect(230px, 1000px, 330px, 400px);
+	opacity: 1;
+}
+
+.three img {
+	clip: rect(250px, 400px, 530px, 120px);
+	opacity: 1;
+}
+
+.four img {
+	clip: rect(230px, 120px, 480px, 20px);
+	opacity: 1;
+}
+
+.five img {
+	clip: rect(50px, 430px, 230px, 20px);
+	opacity: 1;
+}
+
+.six img {
+	clip: rect(20px, 1000px, 180px, 430px);
+	opacity: 1;
+}
+
+/*--animation--*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6,
+.js--wp-7 {
+	opacity: 0;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-4.animated,
+.js--wp-5.animated,
+.js--wp-6.animated,
+.js--wp-7.animated {
+    opacity: 1;
+}
+
+.down {
+	width: 20px;
+	height: auto;
+	position: absolute;
+	bottom: 5%;
+	left: 49%;
+}
+
+i {
+	font-size: 250%;
+	color: rgba(69, 69, 69, 0.2);
+}
+
+i:hover {
+	color: #222;
+	transition: color 0.2s;
+}
